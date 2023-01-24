@@ -1,40 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
-.social-icons .ancur a{
-	background:none;
-	border:none;
-	bottom:auto;
-	clear:none;
-	cursor:default;
-	/* didn't really know what the default for display should be*/
-	/*display:inline;*/
-	float:none;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:medium;
-	font-style:normal;
-	font-weight:normal;
-	height:auto;
-	left:auto;
-	letter-spacing:normal;
-	line-height:normal;
-	max-height:none;
-	max-width:none;
-	min-height:0;
-	min-width:0;
-	overflow:visible;
-	position:static;
-	right:auto;
-	text-align:left;
-	text-decoration:none;
-	text-indent:0;
-	text-transform:none;
-	top:auto;
-	visibility:visible;
-	white-space:normal;
-	width:auto;
-	z-index:auto;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -214,11 +181,12 @@ header .navbar ul li a:hover {
 
 /* hero section starts*/
 .home {
+  padding-top: 90px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  min-height: 125vh;
+  /* min-height: 125vh; */
   align-items: center;
 }
 .home #particles-js {
