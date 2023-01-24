@@ -181,12 +181,11 @@ header .navbar ul li a:hover {
 
 /* hero section starts*/
 .home {
-  padding-top: 90px;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  /* min-height: 125vh; */
+  min-height: 125vh;
   align-items: center;
 }
 .home #particles-js {
