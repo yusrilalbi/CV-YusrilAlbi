@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -185,7 +184,7 @@ header .navbar ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  min-height: 125vh;
+  min-height: 100vh;
   align-items: center;
 }
 .home #particles-js {
@@ -213,8 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 330px;
-  height: 330px;
+  width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -311,17 +309,14 @@ header .navbar ul li a:hover {
 .social-icons a.github:hover {
   background-color: #0e0e0e;
 }
-.social-icons a.whatsapp:hover {
-  background-color: #0e0e0e;
-}
-.social-icons a.TOEFL:hover {
+.social-icons a.twitter:hover {
   background-color: #00aced;
 }
 .social-icons a.linkedin:hover {
   background-color: #007bb6;
 }
-.social-icons a.CV:hover {
-  background-color: #0dec1f;
+.social-icons a.dev:hover {
+  background-color: #070707;
 }
 .social-icons a.instagram:hover {
   background-color: #ee00da;
