@@ -220,7 +220,7 @@ header .navbar ul li a:hover {
   margin-left: 2rem;
   /* border-radius: 50%; */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -372,7 +372,7 @@ header .navbar ul li a:hover {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
   transition: 0.3s;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .about .row .image img:hover {
   mix-blend-mode: normal;
