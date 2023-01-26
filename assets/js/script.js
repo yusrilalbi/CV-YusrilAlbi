@@ -223,12 +223,13 @@ srtop.reveal('.home .CV', { interval: 1200 });
 srtop.reveal('.home .TOEFL', { interval: 1400 });
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
-srtop.reveal('.about .content .tag', { delay: 200 });
-srtop.reveal('.about .content p', { delay: 200 });
-srtop.reveal('.about .content .box-container', { delay: 200 });
-srtop.reveal('.about .content .resumebtn', { delay: 200 });
+// srtop.reveal('.about .content h3', { delay: 200 });
+// srtop.reveal('.about .content .tag', { delay: 200 });
+// srtop.reveal('.about .content p', { delay: 200 });
+// srtop.reveal('.about .content .box-container', { delay: 200 });
+// srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
+srtop.reveal('.about .content', { delay: 200 });
 
 /* SCROLL SKILLS */
 srtop.reveal('.skills .container', { interval: 200 });
