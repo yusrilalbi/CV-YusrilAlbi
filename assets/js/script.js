@@ -217,12 +217,10 @@ srtop.reveal('.home .content p', { delay: 200 });
 srtop.reveal('.home .content .btn', { delay: 200 });
 
 srtop.reveal('.home .image', { delay: 400 });
-srtop.reveal('.home .linkedin', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 800 });
-srtop.reveal('.home .CV', { interval: 1000 });
-srtop.reveal('.home .TOEFL', { interval: 600 });
-srtop.reveal('.home .instagram', { interval: 600 });
-srtop.reveal('.home .dev', { interval: 600 });
+srtop.reveal('.home .linkedin', { interval: 800 });
+srtop.reveal('.home .instagram', { interval: 1000 });
+srtop.reveal('.home .CV', { interval: 1200 });
+srtop.reveal('.home .TOEFL', { interval: 1400 });
 
 /* SCROLL ABOUT */
 srtop.reveal('.about .content h3', { delay: 200 });
