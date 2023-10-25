@@ -1099,13 +1099,15 @@ form .button-area {
   background: rgb(0, 1, 43);
 }
 .footer .box-container {
+  padding-left: 3rem;
+  padding-right: 3rem;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 .footer .box-container .box {
   flex: 1 1 25rem;
-  margin: 2.5rem;
+  margin: 3.0rem;
 }
 .footer .box-container .box h3 {
   font-size: 2.5rem;
@@ -1229,5 +1231,27 @@ form .button-area {
 }
 /* scroll top ends */
 .corner-box{ width:200px; height:300px; border:1px solid #999; position:relative; margin-top:30px; }
-.rightCircle{ position:absolute; width:40px; height:40px; border-radius:50%;  background:white; right:-20px; top:-20px;}
-.leftCircle{ position:absolute; width:40px; height:40px; border-radius:50%;  background:white; left:-20px; top:-20px;}
+.rightCircle{ 
+  position:absolute; 
+  width:40px; 
+  height:40px; 
+  border-radius:50%;  
+  background:white; 
+  right:-20px; 
+  top:-20px;
+  border: 0.1rem solid grey; 
+  background-size: cover; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+  z-index: 10; }
+.leftCircle{
+  position:absolute; 
+  width:40px; 
+  height:40px; 
+  border-radius:50%;  
+  background:white; 
+  right:-20px; 
+  top:-20px;
+  border: 0.1rem solid grey; 
+  background-size: cover; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+  z-index: 10;}
